@@ -55,7 +55,7 @@ const Post = ({
     const base64files = await getBase64FilesFromUrls(urls);
 
     const data = {
-      api_key: "API KEY",
+      api_key: "e4hpvTDb9DZwOOUjyKL7grhY6Zy9DjMlCfkv4v6UFdC03Uuk8F",
       images: base64files,
       modifiers: ["crops_fast", "similar_images"],
       plant_language: "en",
